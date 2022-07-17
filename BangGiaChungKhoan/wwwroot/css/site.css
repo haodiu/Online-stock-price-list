@@ -1,0 +1,44 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:700;
+}
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.cl1 {
+    background-color: #65dac0;
+}
+
+.cl2 {
+    background-color: #65ebc0;
+}
+
+th, td {
+    height: 100%;
+    min-width: 70px;
+}
+
+.textCenterBox {
+    display: table-cell;
+    vertical-align: middle; 
+}

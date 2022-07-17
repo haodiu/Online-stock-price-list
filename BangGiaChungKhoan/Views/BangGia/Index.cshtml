@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="x_content">             
+    <p>&nbsp; &nbsp;   </p>
+    <table class="table table-bordered table-hover table-sm  " id="tblInfo">
+        <thead class="thead-light">
+            <tr class="text-center cl1">
+                <th rowspan="2" class="textCenterBox">Mã CK</th>  
+                <th colspan="6">Bên Mua</th>
+                <th colspan="2">Khớp Lệnh</th>
+                <th colspan="6">Bên Bán</th>
+                <th rowspan="2" class="textCenterBox">Tổng SL</th>  
+            </tr>
+            <tr class="text-center cl2" >
+                <th>Giá 3</th>
+                <th>SL 3</th>
+                <th>Giá 2</th>
+                <th>SL 2</th>
+                <th>Giá 1</th>
+                <th>SL 1</th>
+                <th>Giá</th>
+                <th>SL</th>
+                <th>Giá 1</th>
+                <th>SL 1</th>
+                <th>Giá 2</th>
+                <th>SL 2</th>
+                <th>Giá 3</th>
+                <th>SL 3</th>
+             </tr>
+        </thead>
+             <tbody class="text-center">
+                           
+             </tbody>
+    </table>
+</div>
+
+@section Scripts{
+    <script src="~/lib/microsoft/signalr/dist/browser/signalr.js"></script>
+    <script src="~/lib/microsoft-signalr/signalr.min.js"></script>
+    <script src="~/js/banggia.js"></script>
+}
